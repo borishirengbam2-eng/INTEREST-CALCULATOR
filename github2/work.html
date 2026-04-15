@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="layout">
+        <!-- SIDEBAR - simple profile area -->
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="avatar">♡</div>
+                <h1>Borish</h1>
+                <p class="bio">programmer & artist. making things for fun.</p>
+            </div>
+            
+            <nav class="side-nav">
+                <a href="#" class="active" data-page="home">HOME</a>
+                <a href="#" data-page="projects">PROJECTS</a>
+                <a href="#" data-page="about">ABOUT</a>
+            </nav>
+            
+            <div class="status">
+                <div class="status-dot"></div>
+                <span>online ~ making art </span>
+            </div>
+            
+            <div class="sidebar-footer">
+                <a href="mailto:borish357@gmail.com">email</a>
+                <a href="https://github.com/borishirengbam2">github</a>
+            </div>
+        </aside>
+        
+        <!-- MAIN CONTENT AREA -->
+        <main class="content">
+            <!-- HOME PAGE -->
+            <div id="home" class="page active">
+                <div class="welcome-box">
+                    <h2>Welcome to my corner of the web</h2>
+                    <p>This is my little website. it's simple, text-focused, and probably never "finished."</p>
+                </div>
+                
+                <section class="quick-facts">
+                    <h3>Quick facts ~</h3>
+                    <ul id="factsList"></ul>
+                </section>
+                
+                <section class="featured-projects">
+                    <h3>Stuff i've made so far ~</h3>
+                    <div id="projectPreview"></div>
+                    <a href="#" class="more-link" data-page="projects">all projects →</a>
+                </section>
+            </div>
+            
+            <!-- PROJECTS PAGE -->
+            <div id="projects" class="page">
+                <h2>Projects</h2>
+                <p class="page-desc">Things i've built over the years.</p>
+                <div id="projectList" class="project-list"></div>
+            </div>
+            
+            <!-- ABOUT PAGE -->
+            <div id="about" class="page">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>𝑯𝒆𝒚, 𝒊'𝒎 𝒃𝒐𝒓𝒊𝒔𝒉. 𝒊'𝒎 𝒂 𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒎𝒆𝒓 𝒘𝒉𝒐 𝒍𝒊𝒌𝒆𝒔 𝒃𝒖𝒊𝒍𝒅𝒊𝒏𝒈 𝒕𝒉𝒊𝒏𝒈𝒔 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒘𝒆𝒃 𝒂𝒏𝒅 𝒃𝒆𝒚𝒐𝒏𝒅.</p>
+                    <p>𝒊 𝒂𝒍𝒔𝒐 𝒆𝒏𝒋𝒐𝒚 𝒎𝒂𝒌𝒊𝒏𝒈 𝒂𝒓𝒕, 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒍𝒍𝒚 𝒑𝒊𝒙𝒆𝒍 𝒂𝒓𝒕 𝒂𝒏𝒅 𝒔𝒊𝒎𝒑𝒍𝒆 𝒂𝒏𝒊𝒎𝒂𝒕𝒊𝒐𝒏𝒔. 𝒊 𝒍𝒊𝒌𝒆 𝒕𝒐 𝒌𝒆𝒆𝒑 𝒕𝒉𝒊𝒏𝒈𝒔 𝒎𝒊𝒏𝒊𝒎𝒂𝒍 𝒂𝒏𝒅 𝒇𝒖𝒏.</p>
+                    <h3>𝒄𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 ~</h3>
+                    <ul>
+                        <li>Working on: PERSONA WEBSITE </li>
+                        <li>Reading: CRIME AND PUNISHMENT </li>
+                        <li>Learning: WEB DEVELOPMENT
+                        </li>
+                    </ul>
+                    
+                    <h3>find me ~</h3>
+                    <ul class="contact-list">
+                        <li>email: <a href="mailto:you@example.com">borish357@gmail.com</a></li>
+                        <li>github: <a href="https://github.com/borishirengbam2">borishirengbam2</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <footer class="main-footer">
+                <p>~ WELCOME TO MY WEBSITE ~</p>
+                <p class="small">© 2026 Borish</p>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="portfolio.js"></script>
+</body>
+</html>
